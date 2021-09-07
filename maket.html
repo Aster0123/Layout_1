@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket 1</title>
+</head>
+<body>
+<style>
+    .base{
+        width: 960px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom{
+        idth: 960px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heigh_block{
+        display: flex;
+
+    }
+    .first_photo{
+        background-color: #777777;
+        width: 122px;
+        height: 108px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+
+    }
+    .first_block{
+        width: 279px;
+        height: 108px;
+        background-color: #777777;
+        margin-left: 23px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .second_block{
+        width: 513px;
+        height: 108px;
+        background-color: #777777;
+        margin-left: 23px;
+        padding-right: 20px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    p{
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 0.5;
+        font-weight: 400;
+        color: #ffffff;
+        padding-top: 7.3px;
+    }
+    .content{
+        width: 980px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: white;
+    }
+    a:active {
+        color: white;
+    }
+    .line{
+        width: 959px;
+        height: 1px;
+        background-color: #777777;
+    }
+    .content_left{
+
+    }
+    .right_second{
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .left_first{
+        width: 184px;
+        height: 335px;
+        background-color: #777777;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    
+    dl{
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #ffffff;
+        padding-top: 20px;
+
+    }
+    .dd1{
+        padding-left: 13px;
+        margin-left: 0px;
+    }
+    .dd2{
+        padding-left: 23px
+        padding-top: 0px;
+    }
+    .fifth_right{
+        width: 757px;
+        height: 210px;
+        background-color: #dcdcdc;
+        margin-left: 23px;
+      
+    }
+    .photo{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .sixth_right{
+        margin-left: 23px;
+        background-color: #dcdcdc;
+        margin-top: 23px;
+        height: 151px;
+    }
+    .bottom_one{
+        background-color: #dcdcdc;
+        width: 364.5px;
+        height: 223px;
+        margin-top: 23px;
+        margin-right: 23px;
+    }
+    .bottom_two{
+        background-color: #dcdcdc;
+        width: 364.5px;
+        height: 223px;
+        margin-top: 23px;
+    }
+    .bottom_right{
+        display: flex;
+        flex-direction: row;
+        margin-left: 23px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        width: 960px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .block_ten{
+        background-color: #777777;
+        width: 319px;
+        height: 180px;
+        margin-right: 23px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+        display: flex;
+    }
+    .block_eleven{
+        background-color: #777777;
+        width: 319px;
+        height: 180px;
+        margin-right: 23px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .left_second{
+        width: 184px;
+        height: 134px;
+        background-color: #777777;
+        margin-top: 335px;
+    }
+    .bottom_image{
+        background-color: #777777;
+        margin-top: 23px;
+        width: 308px;
+        height: 78.5px;
+    }
+    .block_twelve{
+        background-color: #777777;
+        margin-top: 23px;
+        width: 308px;
+        height: 78.5px;
+    }
+    .two_blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .text_boxes{
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-bottom: 23px;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #777777;
+    }
+    ul {
+        list-style-type: square;
+        font-size: 14px;
+    }
+    li{
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .big_block{
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 700;
+        color: #777777;
+        padding: 23px;
+    }
+    .big_block3{
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        color: #777777;
+        padding: 23px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 23px;
+        padding-left: 69px;
+    }
+    .big_block2{
+        font-family: Arial;
+        font-size: 14px;
+        padding-left: 23px;
+        font-weight: 400;
+        color: #777777;
+
+    }
+    .punkt{
+        padding-top: 0px;
+        margin-top: 15px;
+    }
+    .punkt2{
+        padding-top: 0px;
+        margin-top: 15px;
+        margin-left: 23px;
+    }
+    .colortext{
+        font-weight: 700;
+        color: #777777;
+    }
+    .text_q{
+        color: #777777;
+    }
+
+</style>
+<div class="base">
+<div class="heigh_block">
+    <div class="first_photo">
+        <img src="#" alt="" width="122" height="108" title="first_photo">
+    </div>
+<div class="first_block">
+
+</div>
+<div class="second_block">
+    <p align="right">+7 (499) 346-21-31</p>
+    <p align="right"><a href="#">manager@pixelplus.ru</a></p>
+    <p align="right"><a href="#">www.pixelplus.ru</a></p>
+</div>
+</div>
+    <div class="line"></div>
+<div class="content">
+    <div class="content_left">
+        <div class="left_first">
+            <dl>
+                <dd class="dd1" align="left"><strong>Создание сайтов</strong></dd>
+                <dd class="dd1">Изготовление сайтов «под ключ»</dd>
+                <dd class="dd1">Как мы работаем</dd>
+                <dd class="dd1">Интеграция с 1С </dd>
+                <dd class="dd1">Поддержка сайтов </dd>
+                <dd class="dd1">Создание сайтов на Битрикс </dd>
+                <dd class="dd1">Модули Битрикс</dd>
+                <dd class="dd1">Купить Битрикс </dd>
+                <dd class="dd1">Дизайн сайтов </dd>
+                <dd class="dd1">Редизайн сайтов </dd>
+                <dd class="dd1">Интернет-магазины </dd>
+                <dd class="dd1">Создание логотипов FAQ</dd>
+            </dl>
+        </div>
+        <div class="left_second"><img src="#" alt="" width="184" height="134" title="seventh_photo"></div>
+
+    </div>
+        <div class="right_second">
+            <div class="fifth_right">
+                <div class="big_block">PSD файл с макетом. Макет разбит по слоям и сгрупированн по папкам:</div>
+            <ul class="big_block3">
+                <li class="text_q"> <span class="colortext">number</span> - нумерация блоков (номера блоков верстать не нужно)</li>
+                <li class="text_q"><span class="colortext">text </span>- текстовые блоки (шрифт Arial, размер 14 пикселей, межстрочное растояние 22 пикселя)</li>
+                <li class="text_q"><span class="colortext">head </span>- шапка сайта</li>
+                <li class="text_q"><span class="colortext">content </span>- контентная область, которая в свою очередь делится на left и center</li>
+            </ul>
+                <div class="big_block2">Текстовое описание задания и требования.</div>
+            </div>
+            <div class="photo">
+            <div class="sixth_right">
+                <img src="#" alt="" width="133" height="151" title="sixth_photo">
+            </div>
+            <div class="sixth_right">
+                <img src="#" alt="" width="133" height="151" title="sixth_photo">
+            </div>
+            <div class="sixth_right">
+                <img src="#" alt="" width="133" height="151" title="sixth_photo">
+            </div>
+            <div class="sixth_right">
+                <img src="#" alt="" width="133" height="151" title="sixth_photo">
+            </div>
+            <div class="sixth_right">
+                <img src="#" alt="" width="133" height="151" title="sixth_photo">
+            </div>
+                <div class="sixth_right">
+                    <img src="#" alt="" width="133" height="151" title="sixth_photo">
+                </div>
+                <div class="sixth_right">
+                    <img src="#" alt="" width="133" height="151" title="sixth_photo">
+                </div>
+            </div>
+            <div class="bottom_right">
+                <div class="bottom_one"><p class="text_boxes" align="justify">Студия «Пиксель Плюс» разработает полнофункциональный продукт ориентированный на целевую аудиторию и эффективно решающий поставленные перед ним маркетинговые задачи. Опыт работ и использование собственных технологий, позволяет предлагать услугу изготовления сайта в Москве в разумные сроки.</p></div>
+                <div class="bottom_two"><p class="text_boxes" align="justify">Поисковое продвижение (раскрутка) ведется по коммерческим запросам, что позволяет многократно увеличить количество продаж с сайта при разумном рекламном бюджете.</p></div>
+            </div>
+        </div>
+</div>
+    <div class="line"></div>
+</div>
+<div class="bottom">
+    <div class="block_ten">
+        <dl class="punkt">
+            <dd class="dd2">Пункт 01</dd>
+            <dd class="dd2">Пункт 02</dd>
+            <dd class="dd2">Пункт 03</dd>
+            <dd class="dd2">Пункт 04</dd>
+            <dd class="dd2">Пункт 05</dd>
+            <dd class="dd2">Пункт 06</dd>
+            <dd class="dd2">Пункт 07</dd>
+        </dl>
+        <dl class="punkt2">
+            <dd class="dd2">Пункт 08</dd>
+            <dd class="dd2">Пункт 09</dd>
+            <dd class="dd2">Пункт 10</dd>
+            <dd class="dd2">Пункт 11</dd>
+            <dd class="dd2">Пункт 12</dd>
+            <dd class="dd2">Пункт 13</dd>
+            <dd class="dd2">Пункт 14</dd>
+        </dl>
+    </div>
+    <div class="block_eleven">
+        <ul>
+            <li>Поисковое продвижение сайтов</li>
+            <li>Тариф «Старт»</li>
+            <li>Тариф «Продвижение Плюс»</li>
+            <li>Тариф «Интернет-магазин»</li>
+            <li>Тариф «Эксклюзив»</li>
+            <li>Тариф «Контекст + SEO»</li>
+            <li>Тариф «Регион»</li>
+        </ul>
+    </div>
+        <div class="two_blocks">
+    <div class="block_twelve"></div>
+        <div class="bottom_image">
+        <img src="#" alt="" width="308" height="78.5" title="bottom_photo">
+         </div>
+        </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
